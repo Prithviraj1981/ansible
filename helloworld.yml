@@ -1,0 +1,6 @@
+- name: This is a hello-world example
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: Create a resource group
+    shell: echo "Hi! Tower is working."
